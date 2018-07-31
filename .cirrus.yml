@@ -1,0 +1,7 @@
+build_task:
+    container:
+        image: ubuntu:xenial
+    build_script:
+        - apt-get update && apt-get install -y build-essential cmake libappindicator3-dev
+        - cmake .
+        - make

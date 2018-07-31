@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Memory Indicator
+GenericName=Memory Indicator
+Comment=Memory indicator
+Exec=indicator-memory
+Terminal=false
+Type=Application
+Icon=com.github.dawidd6.indicator-memory
+Categories=Utility;
+StartupNotify=false
+X-GNOME-autostart-enabled=true
